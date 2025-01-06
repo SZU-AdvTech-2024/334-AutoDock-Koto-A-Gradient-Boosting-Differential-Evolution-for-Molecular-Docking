@@ -1,8 +1,6 @@
 @article{REPO334,
     author = "Ji, Junkai and Zhou, Jin and Yang, Zhangfan and Lin, Qiuzhen and Coello, Carlos A. Coello",
-    doi = "10.1109/TEVC.2022.3225632",
     journal = "IEEE Transactions on Evolutionary Computation",
-    keywords = "Drugs;Proteins;Couplings;Genetic algorithms;COVID-19;Three-dimensional displays;Approximation algorithms;Differential evolution;drug design;molecular docking;SARS-CoV-2;virtual screening",
     number = "6",
     pages = "1648-1662",
     title = "{AutoDock Koto: A Gradient Boosting Differential Evolution for Molecular Docking}",
