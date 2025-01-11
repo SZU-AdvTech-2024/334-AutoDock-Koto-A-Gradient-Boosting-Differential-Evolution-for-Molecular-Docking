@@ -1,0 +1,15 @@
+receptor = 2qbp_protein.pdbqt
+ligand = 2qbp_ligand.pdbqt
+target = 2qbp_ligand.pdbqt
+
+center_x = 48.323
+center_y = 9.608
+center_z = 3.65
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

@@ -1,0 +1,15 @@
+receptor = 4de2_protein.pdbqt
+ligand = 4de2_ligand.pdbqt
+target = 4de2_ligand.pdbqt
+
+center_x = -7.814
+center_y = 55.906
+center_z = 12.002
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

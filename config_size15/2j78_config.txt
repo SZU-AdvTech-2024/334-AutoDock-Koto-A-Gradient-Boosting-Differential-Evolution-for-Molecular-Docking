@@ -1,0 +1,15 @@
+receptor = 2j78_protein.pdbqt
+ligand = 2j78_ligand.pdbqt
+target = 2j78_ligand.pdbqt
+
+center_x = -0.176
+center_y = 10.645
+center_z = 9.508
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

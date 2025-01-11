@@ -1,0 +1,15 @@
+receptor = 3aru_protein.pdbqt
+ligand = 3aru_ligand.pdbqt
+target = 3aru_ligand.pdbqt
+
+center_x = -1.688
+center_y = 8.256
+center_z = 18.344
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

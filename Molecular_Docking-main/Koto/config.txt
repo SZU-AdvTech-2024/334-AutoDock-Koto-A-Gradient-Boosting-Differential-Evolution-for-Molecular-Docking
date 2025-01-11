@@ -1,0 +1,9 @@
+receptor = 1a30_protein.pdbqt
+ligand = 1a30_ligand.pdbqt
+center_x = 15.508
+center_y = 25.522
+center_z = 2.829
+size_x = 61.6555555556
+size_y = 62.65
+size_z = 41.7666666667
+out = result.pdbqt

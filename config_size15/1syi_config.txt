@@ -1,0 +1,15 @@
+receptor = 1syi_protein.pdbqt
+ligand = 1syi_ligand.pdbqt
+target = 1syi_ligand.pdbqt
+
+center_x = 20.325
+center_y = 13.17
+center_z = 59.165
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

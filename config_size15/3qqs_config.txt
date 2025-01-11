@@ -1,0 +1,15 @@
+receptor = 3qqs_protein.pdbqt
+ligand = 3qqs_ligand.pdbqt
+target = 3qqs_ligand.pdbqt
+
+center_x = 30.786
+center_y = -6.776
+center_z = 28.662
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

@@ -1,0 +1,15 @@
+receptor = 4jxs_protein.pdbqt
+ligand = 4jxs_ligand.pdbqt
+target = 4jxs_ligand.pdbqt
+
+center_x = 81.468
+center_y = 5.674
+center_z = 31.649
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

@@ -1,0 +1,15 @@
+receptor = 3f3c_protein.pdbqt
+ligand = 3f3c_ligand.pdbqt
+target = 3f3c_ligand.pdbqt
+
+center_x = 27.382
+center_y = 38.643
+center_z = 20.271
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

@@ -1,0 +1,15 @@
+receptor = 3ueu_protein.pdbqt
+ligand = 3ueu_ligand.pdbqt
+target = 3ueu_ligand.pdbqt
+
+center_x = -2.555
+center_y = 10.438
+center_z = 18.435
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

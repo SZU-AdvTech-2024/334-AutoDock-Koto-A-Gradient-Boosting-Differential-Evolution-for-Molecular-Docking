@@ -1,0 +1,690 @@
+MODEL 1
+REMARK VINA RESULT:     -12.3      0.384      0.387
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C23_1  and  C22_23 
+REMARK    2  A    between atoms: C33_7  and  C32_13 
+REMARK    3  A    between atoms: C32_13  and  O31_14 
+REMARK    4  A    between atoms: O31_14  and  C9_15 
+REMARK    5  A    between atoms: C9_15  and  C7_16 
+REMARK    6  A    between atoms: C9_15  and  C10_26 
+REMARK    7  A    between atoms: C7_16  and  C5_17 
+REMARK    8  A    between atoms: C7_16  and  O8_25 
+REMARK    9  A    between atoms: C5_17  and  C4_18 
+REMARK   10  A    between atoms: C5_17  and  O6_24 
+REMARK   11  A    between atoms: C4_18  and  C2_19 
+REMARK   12  A    between atoms: C4_18  and  O21_22 
+REMARK       I    between atoms: C2_19  and  N1_21 
+REMARK   13  A    between atoms: N1_21  and  C41_39 
+REMARK   14  A    between atoms: O21_22  and  C22_23 
+REMARK       I    between atoms: C10_26  and  N12_28 
+REMARK   15  A    between atoms: N12_28  and  C51_29 
+REMARK   16  A    between atoms: C59_35  and  O60_36 
+REMARK   17  A    between atoms: C49_45  and  O50_46 
+ROOT
+ATOM      1  C7  BEB A   1      13.834  23.166   5.078  1.00  0.00     0.188 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C9  BEB A   1      15.089  22.837   5.914  1.00  0.00     0.244 C 
+BRANCH   2   3
+ATOM      3  O31 BEB A   1      14.886  23.287   7.286  1.00  0.00    -0.369 OA
+BRANCH   3   4
+ATOM      4  C32 BEB A   1      16.083  23.384   8.113  1.00  0.00     0.207 C 
+BRANCH   4   5
+ATOM      5  C33 BEB A   1      16.483  22.091   8.843  1.00  0.00    -0.035 A 
+ATOM      6  C34 BEB A   1      15.516  21.362   9.601  1.00  0.00     0.009 A 
+ATOM      7  C35 BEB A   1      15.883  20.156  10.264  1.00  0.00     0.001 A 
+ATOM      8  C36 BEB A   1      17.218  19.673  10.170  1.00  0.00     0.000 A 
+ATOM      9  C37 BEB A   1      18.186  20.398   9.417  1.00  0.00     0.001 A 
+ATOM     10  C38 BEB A   1      17.818  21.603   8.753  1.00  0.00     0.009 A 
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2  11
+ATOM     11  C10 BEB A   1      15.276  21.354   5.851  1.00  0.00     0.250 C 
+ATOM     12  O11 BEB A   1      14.280  20.656   6.006  1.00  0.00    -0.271 OA
+ATOM     13  N12 BEB A   1      16.476  20.875   5.570  1.00  0.00    -0.348 N 
+ATOM     14  H22 BEB A   1      17.204  21.553   5.480  1.00  0.00     0.163 HD
+BRANCH  13  15
+ATOM     15  C51 BEB A   1      16.878  19.480   5.373  1.00  0.00     0.147 C 
+ATOM     16  C52 BEB A   1      16.719  19.056   3.913  1.00  0.00    -0.027 A 
+ATOM     17  C57 BEB A   1      17.660  18.067   3.550  1.00  0.00    -0.047 A 
+ATOM     18  C53 BEB A   1      15.785  19.526   2.945  1.00  0.00     0.010 A 
+ATOM     19  C56 BEB A   1      17.707  17.518   2.245  1.00  0.00     0.008 A 
+ATOM     20  C58 BEB A   1      18.540  17.735   4.743  1.00  0.00     0.073 C 
+ATOM     21  C55 BEB A   1      16.769  17.991   1.282  1.00  0.00     0.001 A 
+ATOM     22  C54 BEB A   1      15.813  18.990   1.626  1.00  0.00     0.001 A 
+ATOM     23  C59 BEB A   1      18.320  18.983   5.645  1.00  0.00     0.149 C 
+BRANCH  23  24
+ATOM     24  O60 BEB A   1      19.218  20.055   5.284  1.00  0.00    -0.393 OA
+ATOM     25  H28 BEB A   1      20.086  19.867   5.621  1.00  0.00     0.210 HD
+ENDBRANCH  23  24
+ENDBRANCH  13  15
+ENDBRANCH   2  11
+ENDBRANCH   1   2
+BRANCH   1  26
+ATOM     26  C5  BEB A   1      13.347  24.611   5.193  1.00  0.00     0.188 C 
+BRANCH  26  27
+ATOM     27  C4  BEB A   1      11.903  24.799   4.577  1.00  0.00     0.244 C 
+BRANCH  27  28
+ATOM     28  C2  BEB A   1      10.818  24.813   5.648  1.00  0.00     0.250 C 
+ATOM     29  O3  BEB A   1      10.718  23.842   6.384  1.00  0.00    -0.271 OA
+ATOM     30  N1  BEB A   1      10.001  25.856   5.700  1.00  0.00    -0.348 N 
+ATOM     31  H17 BEB A   1      10.203  26.580   5.040  1.00  0.00     0.163 HD
+BRANCH  30  32
+ATOM     32  C41 BEB A   1       8.840  26.124   6.577  1.00  0.00     0.147 C 
+ATOM     33  C42 BEB A   1       9.221  26.845   7.878  1.00  0.00    -0.027 A 
+ATOM     34  C47 BEB A   1       8.150  27.644   8.362  1.00  0.00    -0.047 A 
+ATOM     35  C43 BEB A   1      10.448  26.810   8.601  1.00  0.00     0.010 A 
+ATOM     36  C46 BEB A   1       8.262  28.416   9.555  1.00  0.00     0.008 A 
+ATOM     37  C48 BEB A   1       6.961  27.522   7.427  1.00  0.00     0.073 C 
+ATOM     38  C45 BEB A   1       9.503  28.373  10.276  1.00  0.00     0.001 A 
+ATOM     39  C44 BEB A   1      10.586  27.577   9.800  1.00  0.00     0.001 A 
+ATOM     40  C49 BEB A   1       7.663  27.029   6.125  1.00  0.00     0.149 C 
+BRANCH  40  41
+ATOM     41  O50 BEB A   1       8.227  28.140   5.382  1.00  0.00    -0.393 OA
+ATOM     42  H37 BEB A   1       8.275  27.911   4.460  1.00  0.00     0.210 HD
+ENDBRANCH  40  41
+ENDBRANCH  30  32
+ENDBRANCH  27  28
+BRANCH  27  43
+ATOM     43  O21 BEB A   1      11.631  23.702   3.632  1.00  0.00    -0.369 OA
+BRANCH  43  44
+ATOM     44  C22 BEB A   1      11.090  24.076   2.337  1.00  0.00     0.207 C 
+BRANCH  44  45
+ATOM     45  C23 BEB A   1       9.572  24.278   2.297  1.00  0.00    -0.035 A 
+ATOM     46  C24 BEB A   1       9.028  25.455   1.724  1.00  0.00     0.009 A 
+ATOM     47  C25 BEB A   1       7.620  25.652   1.696  1.00  0.00     0.001 A 
+ATOM     48  C26 BEB A   1       6.751  24.667   2.246  1.00  0.00     0.000 A 
+ATOM     49  C27 BEB A   1       7.294  23.485   2.822  1.00  0.00     0.001 A 
+ATOM     50  C28 BEB A   1       8.701  23.291   2.847  1.00  0.00     0.009 A 
+ENDBRANCH  44  45
+ENDBRANCH  43  44
+ENDBRANCH  27  43
+ENDBRANCH  26  27
+BRANCH  26  51
+ATOM     51  O6  BEB A   1      14.312  25.407   4.472  1.00  0.00    -0.390 OA
+ATOM     52  H20 BEB A   1      14.568  24.952   3.679  1.00  0.00     0.210 HD
+ENDBRANCH  26  51
+ENDBRANCH   1  26
+BRANCH   1  53
+ATOM     53  O8  BEB A   1      14.162  22.924   3.683  1.00  0.00    -0.390 OA
+ATOM     54  H21 BEB A   1      13.936  22.029   3.456  1.00  0.00     0.210 HD
+ENDBRANCH   1  53
+TORSDOF 17
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:     -12.2      0.651     11.049
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C23_1  and  C22_23 
+REMARK    2  A    between atoms: C33_7  and  C32_13 
+REMARK    3  A    between atoms: C32_13  and  O31_14 
+REMARK    4  A    between atoms: O31_14  and  C9_15 
+REMARK    5  A    between atoms: C9_15  and  C7_16 
+REMARK    6  A    between atoms: C9_15  and  C10_26 
+REMARK    7  A    between atoms: C7_16  and  C5_17 
+REMARK    8  A    between atoms: C7_16  and  O8_25 
+REMARK    9  A    between atoms: C5_17  and  C4_18 
+REMARK   10  A    between atoms: C5_17  and  O6_24 
+REMARK   11  A    between atoms: C4_18  and  C2_19 
+REMARK   12  A    between atoms: C4_18  and  O21_22 
+REMARK       I    between atoms: C2_19  and  N1_21 
+REMARK   13  A    between atoms: N1_21  and  C41_39 
+REMARK   14  A    between atoms: O21_22  and  C22_23 
+REMARK       I    between atoms: C10_26  and  N12_28 
+REMARK   15  A    between atoms: N12_28  and  C51_29 
+REMARK   16  A    between atoms: C59_35  and  O60_36 
+REMARK   17  A    between atoms: C49_45  and  O50_46 
+ROOT
+ATOM      1  C7  BEB A   1      12.892  24.114   5.893  1.00  0.00     0.188 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C9  BEB A   1      11.685  24.490   5.009  1.00  0.00     0.244 C 
+BRANCH   2   3
+ATOM      3  O31 BEB A   1      11.472  23.447   4.013  1.00  0.00    -0.369 OA
+BRANCH   3   4
+ATOM      4  C32 BEB A   1      11.220  23.902   2.650  1.00  0.00     0.207 C 
+BRANCH   4   5
+ATOM      5  C33 BEB A   1       9.762  24.287   2.347  1.00  0.00    -0.035 A 
+ATOM      6  C34 BEB A   1       9.453  25.575   1.811  1.00  0.00     0.009 A 
+ATOM      7  C35 BEB A   1       8.104  25.925   1.516  1.00  0.00     0.001 A 
+ATOM      8  C36 BEB A   1       7.060  24.988   1.753  1.00  0.00     0.000 A 
+ATOM      9  C37 BEB A   1       7.364  23.704   2.288  1.00  0.00     0.001 A 
+ATOM     10  C38 BEB A   1       8.713  23.354   2.583  1.00  0.00     0.009 A 
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2  11
+ATOM     11  C10 BEB A   1      10.504  24.619   5.919  1.00  0.00     0.250 C 
+ATOM     12  O11 BEB A   1      10.316  23.715   6.726  1.00  0.00    -0.271 OA
+ATOM     13  N12 BEB A   1       9.769  25.717   5.858  1.00  0.00    -0.348 N 
+ATOM     14  H22 BEB A   1      10.024  26.371   5.146  1.00  0.00     0.163 HD
+BRANCH  13  15
+ATOM     15  C51 BEB A   1       8.631  26.102   6.695  1.00  0.00     0.147 C 
+ATOM     16  C52 BEB A   1       9.093  26.804   7.972  1.00  0.00    -0.027 A 
+ATOM     17  C57 BEB A   1       8.138  27.740   8.429  1.00  0.00    -0.047 A 
+ATOM     18  C53 BEB A   1      10.306  26.628   8.698  1.00  0.00     0.010 A 
+ATOM     19  C56 BEB A   1       8.345  28.515   9.597  1.00  0.00     0.008 A 
+ATOM     20  C58 BEB A   1       6.941  27.747   7.495  1.00  0.00     0.073 C 
+ATOM     21  C55 BEB A   1       9.559  28.333  10.319  1.00  0.00     0.001 A 
+ATOM     22  C54 BEB A   1      10.538  27.396   9.875  1.00  0.00     0.001 A 
+ATOM     23  C59 BEB A   1       7.542  27.094   6.217  1.00  0.00     0.149 C 
+BRANCH  23  24
+ATOM     24  O60 BEB A   1       8.196  28.078   5.385  1.00  0.00    -0.393 OA
+ATOM     25  H28 BEB A   1       8.412  28.841   5.908  1.00  0.00     0.210 HD
+ENDBRANCH  23  24
+ENDBRANCH  13  15
+ENDBRANCH   2  11
+ENDBRANCH   1   2
+BRANCH   1  26
+ATOM     26  C5  BEB A   1      14.156  23.726   5.123  1.00  0.00     0.188 C 
+BRANCH  26  27
+ATOM     27  C4  BEB A   1      15.225  23.028   6.054  1.00  0.00     0.244 C 
+BRANCH  27  28
+ATOM     28  C2  BEB A   1      15.279  21.520   5.839  1.00  0.00     0.250 C 
+ATOM     29  O3  BEB A   1      14.241  20.884   5.935  1.00  0.00    -0.271 OA
+ATOM     30  N1  BEB A   1      16.460  20.962   5.605  1.00  0.00    -0.348 N 
+ATOM     31  H17 BEB A   1      17.223  21.604   5.548  1.00  0.00     0.163 HD
+BRANCH  30  32
+ATOM     32  C41 BEB A   1      16.829  19.542   5.414  1.00  0.00     0.147 C 
+ATOM     33  C42 BEB A   1      16.706  19.079   3.956  1.00  0.00    -0.027 A 
+ATOM     34  C47 BEB A   1      17.621  18.031   3.665  1.00  0.00    -0.047 A 
+ATOM     35  C43 BEB A   1      15.841  19.554   2.929  1.00  0.00     0.010 A 
+ATOM     36  C46 BEB A   1      17.701  17.434   2.373  1.00  0.00     0.008 A 
+ATOM     37  C48 BEB A   1      18.430  17.703   4.906  1.00  0.00     0.073 C 
+ATOM     38  C45 BEB A   1      16.824  17.921   1.346  1.00  0.00     0.001 A 
+ATOM     39  C44 BEB A   1      15.903  18.974   1.624  1.00  0.00     0.001 A 
+ATOM     40  C49 BEB A   1      18.257  19.019   5.723  1.00  0.00     0.149 C 
+BRANCH  40  41
+ATOM     41  O50 BEB A   1      19.199  20.033   5.288  1.00  0.00    -0.393 OA
+ATOM     42  H37 BEB A   1      19.202  20.749   5.913  1.00  0.00     0.210 HD
+ENDBRANCH  40  41
+ENDBRANCH  30  32
+ENDBRANCH  27  28
+BRANCH  27  43
+ATOM     43  O21 BEB A   1      14.894  23.300   7.464  1.00  0.00    -0.369 OA
+BRANCH  43  44
+ATOM     44  C22 BEB A   1      16.008  23.384   8.391  1.00  0.00     0.207 C 
+BRANCH  44  45
+ATOM     45  C23 BEB A   1      16.484  22.045   8.963  1.00  0.00    -0.035 A 
+ATOM     46  C24 BEB A   1      17.826  21.628   8.772  1.00  0.00     0.009 A 
+ATOM     47  C25 BEB A   1      18.268  20.381   9.290  1.00  0.00     0.001 A 
+ATOM     48  C26 BEB A   1      17.363  19.543  10.001  1.00  0.00     0.000 A 
+ATOM     49  C27 BEB A   1      16.016  19.957  10.194  1.00  0.00     0.001 A 
+ATOM     50  C28 BEB A   1      15.578  21.204   9.676  1.00  0.00     0.009 A 
+ENDBRANCH  44  45
+ENDBRANCH  43  44
+ENDBRANCH  27  43
+ENDBRANCH  26  27
+BRANCH  26  51
+ATOM     51  O6  BEB A   1      14.680  24.959   4.585  1.00  0.00    -0.390 OA
+ATOM     52  H20 BEB A   1      15.243  24.767   3.844  1.00  0.00     0.210 HD
+ENDBRANCH  26  51
+ENDBRANCH   1  26
+BRANCH   1  53
+ATOM     53  O8  BEB A   1      13.216  25.273   6.708  1.00  0.00    -0.390 OA
+ATOM     54  H21 BEB A   1      12.563  25.371   7.391  1.00  0.00     0.210 HD
+ENDBRANCH   1  53
+TORSDOF 17
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:     -11.2      1.086      2.084
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C23_1  and  C22_23 
+REMARK    2  A    between atoms: C33_7  and  C32_13 
+REMARK    3  A    between atoms: C32_13  and  O31_14 
+REMARK    4  A    between atoms: O31_14  and  C9_15 
+REMARK    5  A    between atoms: C9_15  and  C7_16 
+REMARK    6  A    between atoms: C9_15  and  C10_26 
+REMARK    7  A    between atoms: C7_16  and  C5_17 
+REMARK    8  A    between atoms: C7_16  and  O8_25 
+REMARK    9  A    between atoms: C5_17  and  C4_18 
+REMARK   10  A    between atoms: C5_17  and  O6_24 
+REMARK   11  A    between atoms: C4_18  and  C2_19 
+REMARK   12  A    between atoms: C4_18  and  O21_22 
+REMARK       I    between atoms: C2_19  and  N1_21 
+REMARK   13  A    between atoms: N1_21  and  C41_39 
+REMARK   14  A    between atoms: O21_22  and  C22_23 
+REMARK       I    between atoms: C10_26  and  N12_28 
+REMARK   15  A    between atoms: N12_28  and  C51_29 
+REMARK   16  A    between atoms: C59_35  and  O60_36 
+REMARK   17  A    between atoms: C49_45  and  O50_46 
+ROOT
+ATOM      1  C7  BEB A   1      14.035  22.521   4.648  1.00  0.00     0.188 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C9  BEB A   1      15.117  21.801   5.480  1.00  0.00     0.244 C 
+BRANCH   2   3
+ATOM      3  O31 BEB A   1      14.497  21.176   6.642  1.00  0.00    -0.369 OA
+BRANCH   3   4
+ATOM      4  C32 BEB A   1      14.829  21.756   7.938  1.00  0.00     0.207 C 
+BRANCH   4   5
+ATOM      5  C33 BEB A   1      16.087  21.180   8.610  1.00  0.00    -0.035 A 
+ATOM      6  C34 BEB A   1      17.376  21.720   8.311  1.00  0.00     0.009 A 
+ATOM      7  C35 BEB A   1      18.539  21.196   8.946  1.00  0.00     0.001 A 
+ATOM      8  C36 BEB A   1      18.417  20.132   9.882  1.00  0.00     0.000 A 
+ATOM      9  C37 BEB A   1      17.135  19.590  10.182  1.00  0.00     0.001 A 
+ATOM     10  C38 BEB A   1      15.972  20.114   9.548  1.00  0.00     0.009 A 
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2  11
+ATOM     11  C10 BEB A   1      15.745  20.780   4.585  1.00  0.00     0.250 C 
+ATOM     12  O11 BEB A   1      15.242  20.619   3.478  1.00  0.00    -0.271 OA
+ATOM     13  N12 BEB A   1      16.836  20.156   4.997  1.00  0.00    -0.348 N 
+ATOM     14  H22 BEB A   1      17.134  20.372   5.926  1.00  0.00     0.163 HD
+BRANCH  13  15
+ATOM     15  C51 BEB A   1      17.665  19.192   4.271  1.00  0.00     0.147 C 
+ATOM     16  C52 BEB A   1      18.219  18.118   5.207  1.00  0.00    -0.027 A 
+ATOM     17  C57 BEB A   1      18.409  16.888   4.538  1.00  0.00    -0.047 A 
+ATOM     18  C53 BEB A   1      18.538  18.221   6.592  1.00  0.00     0.010 A 
+ATOM     19  C56 BEB A   1      18.913  15.743   5.201  1.00  0.00     0.008 A 
+ATOM     20  C58 BEB A   1      17.999  17.029   3.082  1.00  0.00     0.073 C 
+ATOM     21  C55 BEB A   1      19.232  15.852   6.585  1.00  0.00     0.001 A 
+ATOM     22  C54 BEB A   1      19.045  17.082   7.281  1.00  0.00     0.001 A 
+ATOM     23  C59 BEB A   1      17.105  18.301   3.134  1.00  0.00     0.149 C 
+BRANCH  23  24
+ATOM     24  O60 BEB A   1      15.743  17.968   3.483  1.00  0.00    -0.393 OA
+ATOM     25  H28 BEB A   1      15.240  17.825   2.691  1.00  0.00     0.210 HD
+ENDBRANCH  23  24
+ENDBRANCH  13  15
+ENDBRANCH   2  11
+ENDBRANCH   1   2
+BRANCH   1  26
+ATOM     26  C5  BEB A   1      13.691  23.933   5.127  1.00  0.00     0.188 C 
+BRANCH  26  27
+ATOM     27  C4  BEB A   1      12.388  24.493   4.428  1.00  0.00     0.244 C 
+BRANCH  27  28
+ATOM     28  C2  BEB A   1      11.215  24.595   5.396  1.00  0.00     0.250 C 
+ATOM     29  O3  BEB A   1      11.006  23.659   6.154  1.00  0.00    -0.271 OA
+ATOM     30  N1  BEB A   1      10.444  25.673   5.337  1.00  0.00    -0.348 N 
+ATOM     31  H17 BEB A   1      10.736  26.360   4.672  1.00  0.00     0.163 HD
+BRANCH  30  32
+ATOM     32  C41 BEB A   1       9.224  26.024   6.095  1.00  0.00     0.147 C 
+ATOM     33  C42 BEB A   1       9.524  26.694   7.443  1.00  0.00    -0.027 A 
+ATOM     34  C47 BEB A   1       8.476  27.572   7.831  1.00  0.00    -0.047 A 
+ATOM     35  C43 BEB A   1      10.662  26.549   8.288  1.00  0.00     0.010 A 
+ATOM     36  C46 BEB A   1       8.524  28.317   9.046  1.00  0.00     0.008 A 
+ATOM     37  C48 BEB A   1       7.385  27.560   6.777  1.00  0.00     0.073 C 
+ATOM     38  C45 BEB A   1       9.677  28.163   9.890  1.00  0.00     0.001 A 
+ATOM     39  C44 BEB A   1      10.736  27.286   9.511  1.00  0.00     0.001 A 
+ATOM     40  C49 BEB A   1       8.177  27.029   5.544  1.00  0.00     0.149 C 
+BRANCH  40  41
+ATOM     41  O50 BEB A   1       8.902  28.099   4.886  1.00  0.00    -0.393 OA
+ATOM     42  H37 BEB A   1       9.811  27.842   4.773  1.00  0.00     0.210 HD
+ENDBRANCH  40  41
+ENDBRANCH  30  32
+ENDBRANCH  27  28
+BRANCH  27  43
+ATOM     43  O21 BEB A   1      12.015  23.606   3.313  1.00  0.00    -0.369 OA
+BRANCH  43  44
+ATOM     44  C22 BEB A   1      11.424  24.238   2.147  1.00  0.00     0.207 C 
+BRANCH  44  45
+ATOM     45  C23 BEB A   1       9.898  24.373   2.180  1.00  0.00    -0.035 A 
+ATOM     46  C24 BEB A   1       9.286  25.603   1.828  1.00  0.00     0.009 A 
+ATOM     47  C25 BEB A   1       7.872  25.735   1.871  1.00  0.00     0.001 A 
+ATOM     48  C26 BEB A   1       7.063  24.633   2.268  1.00  0.00     0.000 A 
+ATOM     49  C27 BEB A   1       7.674  23.398   2.622  1.00  0.00     0.001 A 
+ATOM     50  C28 BEB A   1       9.087  23.268   2.579  1.00  0.00     0.009 A 
+ENDBRANCH  44  45
+ENDBRANCH  43  44
+ENDBRANCH  27  43
+ENDBRANCH  26  27
+BRANCH  26  51
+ATOM     51  O6  BEB A   1      14.835  24.748   4.794  1.00  0.00    -0.390 OA
+ATOM     52  H20 BEB A   1      14.846  24.909   3.858  1.00  0.00     0.210 HD
+ENDBRANCH  26  51
+ENDBRANCH   1  26
+BRANCH   1  53
+ATOM     53  O8  BEB A   1      14.530  22.630   3.286  1.00  0.00    -0.390 OA
+ATOM     54  H21 BEB A   1      14.318  23.489   2.940  1.00  0.00     0.210 HD
+ENDBRANCH   1  53
+TORSDOF 17
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:     -10.4      1.164     11.043
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C23_1  and  C22_23 
+REMARK    2  A    between atoms: C33_7  and  C32_13 
+REMARK    3  A    between atoms: C32_13  and  O31_14 
+REMARK    4  A    between atoms: O31_14  and  C9_15 
+REMARK    5  A    between atoms: C9_15  and  C7_16 
+REMARK    6  A    between atoms: C9_15  and  C10_26 
+REMARK    7  A    between atoms: C7_16  and  C5_17 
+REMARK    8  A    between atoms: C7_16  and  O8_25 
+REMARK    9  A    between atoms: C5_17  and  C4_18 
+REMARK   10  A    between atoms: C5_17  and  O6_24 
+REMARK   11  A    between atoms: C4_18  and  C2_19 
+REMARK   12  A    between atoms: C4_18  and  O21_22 
+REMARK       I    between atoms: C2_19  and  N1_21 
+REMARK   13  A    between atoms: N1_21  and  C41_39 
+REMARK   14  A    between atoms: O21_22  and  C22_23 
+REMARK       I    between atoms: C10_26  and  N12_28 
+REMARK   15  A    between atoms: N12_28  and  C51_29 
+REMARK   16  A    between atoms: C59_35  and  O60_36 
+REMARK   17  A    between atoms: C49_45  and  O50_46 
+ROOT
+ATOM      1  C7  BEB A   1      13.280  23.740   5.491  1.00  0.00     0.188 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C9  BEB A   1      12.221  24.472   4.640  1.00  0.00     0.244 C 
+BRANCH   2   3
+ATOM      3  O31 BEB A   1      11.963  23.705   3.427  1.00  0.00    -0.369 OA
+BRANCH   3   4
+ATOM      4  C32 BEB A   1      11.440  24.455   2.291  1.00  0.00     0.207 C 
+BRANCH   4   5
+ATOM      5  C33 BEB A   1       9.906  24.492   2.180  1.00  0.00    -0.035 A 
+ATOM      6  C34 BEB A   1       9.241  25.696   1.794  1.00  0.00     0.009 A 
+ATOM      7  C35 BEB A   1       7.821  25.726   1.676  1.00  0.00     0.001 A 
+ATOM      8  C36 BEB A   1       7.063  24.551   1.941  1.00  0.00     0.000 A 
+ATOM      9  C37 BEB A   1       7.723  23.350   2.327  1.00  0.00     0.001 A 
+ATOM     10  C38 BEB A   1       9.142  23.320   2.444  1.00  0.00     0.009 A 
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2  11
+ATOM     11  C10 BEB A   1      10.990  24.586   5.482  1.00  0.00     0.250 C 
+ATOM     12  O11 BEB A   1      10.724  23.642   6.217  1.00  0.00    -0.271 OA
+ATOM     13  N12 BEB A   1      10.295  25.711   5.444  1.00  0.00    -0.348 N 
+ATOM     14  H22 BEB A   1      10.614  26.397   4.792  1.00  0.00     0.163 HD
+BRANCH  13  15
+ATOM     15  C51 BEB A   1       9.118  26.083   6.233  1.00  0.00     0.147 C 
+ATOM     16  C52 BEB A   1       9.519  26.703   7.572  1.00  0.00    -0.027 A 
+ATOM     17  C57 BEB A   1       8.563  27.639   8.023  1.00  0.00    -0.047 A 
+ATOM     18  C53 BEB A   1      10.682  26.452   8.358  1.00  0.00     0.010 A 
+ATOM     19  C56 BEB A   1       8.719  28.345   9.241  1.00  0.00     0.008 A 
+ATOM     20  C58 BEB A   1       7.425  27.731   7.021  1.00  0.00     0.073 C 
+ATOM     21  C55 BEB A   1       9.882  28.089  10.023  1.00  0.00     0.001 A 
+ATOM     22  C54 BEB A   1      10.862  27.150   9.586  1.00  0.00     0.001 A 
+ATOM     23  C59 BEB A   1       8.086  27.130   5.747  1.00  0.00     0.149 C 
+BRANCH  23  24
+ATOM     24  O60 BEB A   1       8.814  28.138   5.010  1.00  0.00    -0.393 OA
+ATOM     25  H28 BEB A   1       8.893  28.921   5.541  1.00  0.00     0.210 HD
+ENDBRANCH  23  24
+ENDBRANCH  13  15
+ENDBRANCH   2  11
+ENDBRANCH   1   2
+BRANCH   1  26
+ATOM     26  C5  BEB A   1      14.612  23.488   4.782  1.00  0.00     0.188 C 
+BRANCH  26  27
+ATOM     27  C4  BEB A   1      15.460  22.364   5.500  1.00  0.00     0.244 C 
+BRANCH  27  28
+ATOM     28  C2  BEB A   1      15.779  21.201   4.568  1.00  0.00     0.250 C 
+ATOM     29  O3  BEB A   1      14.976  20.926   3.689  1.00  0.00    -0.271 OA
+ATOM     30  N1  BEB A   1      16.890  20.509   4.785  1.00  0.00    -0.348 N 
+ATOM     31  H17 BEB A   1      17.455  20.849   5.537  1.00  0.00     0.163 HD
+BRANCH  30  32
+ATOM     32  C41 BEB A   1      17.429  19.316   4.095  1.00  0.00     0.147 C 
+ATOM     33  C42 BEB A   1      18.021  18.279   5.060  1.00  0.00    -0.027 A 
+ATOM     34  C47 BEB A   1      17.924  16.964   4.531  1.00  0.00    -0.047 A 
+ATOM     35  C43 BEB A   1      18.611  18.474   6.342  1.00  0.00     0.010 A 
+ATOM     36  C46 BEB A   1      18.401  15.825   5.244  1.00  0.00     0.008 A 
+ATOM     37  C48 BEB A   1      17.261  17.011   3.167  1.00  0.00     0.073 C 
+ATOM     38  C45 BEB A   1      18.995  16.034   6.535  1.00  0.00     0.001 A 
+ATOM     39  C44 BEB A   1      19.097  17.349   7.077  1.00  0.00     0.001 A 
+ATOM     40  C49 BEB A   1      16.524  18.382   3.248  1.00  0.00     0.149 C 
+BRANCH  40  41
+ATOM     41  O50 BEB A   1      15.256  18.254   3.941  1.00  0.00    -0.393 OA
+ATOM     42  H37 BEB A   1      14.549  18.243   3.306  1.00  0.00     0.210 HD
+ENDBRANCH  40  41
+ENDBRANCH  30  32
+ENDBRANCH  27  28
+BRANCH  27  43
+ATOM     43  O21 BEB A   1      14.711  21.857   6.662  1.00  0.00    -0.369 OA
+BRANCH  43  44
+ATOM     44  C22 BEB A   1      15.110  20.560   7.180  1.00  0.00     0.207 C 
+BRANCH  44  45
+ATOM     45  C23 BEB A   1      16.278  20.584   8.171  1.00  0.00    -0.035 A 
+ATOM     46  C24 BEB A   1      16.247  19.759   9.324  1.00  0.00     0.009 A 
+ATOM     47  C25 BEB A   1      17.323  19.788  10.252  1.00  0.00     0.001 A 
+ATOM     48  C26 BEB A   1      18.436  20.648  10.029  1.00  0.00     0.000 A 
+ATOM     49  C27 BEB A   1      18.469  21.477   8.874  1.00  0.00     0.001 A 
+ATOM     50  C28 BEB A   1      17.393  21.446   7.948  1.00  0.00     0.009 A 
+ENDBRANCH  44  45
+ENDBRANCH  43  44
+ENDBRANCH  27  43
+ENDBRANCH  26  27
+BRANCH  26  51
+ATOM     51  O6  BEB A   1      15.314  24.749   4.810  1.00  0.00    -0.390 OA
+ATOM     52  H20 BEB A   1      15.000  25.270   5.539  1.00  0.00     0.210 HD
+ENDBRANCH  26  51
+ENDBRANCH   1  26
+BRANCH   1  53
+ATOM     53  O8  BEB A   1      13.554  24.568   6.655  1.00  0.00    -0.390 OA
+ATOM     54  H21 BEB A   1      13.723  24.011   7.406  1.00  0.00     0.210 HD
+ENDBRANCH   1  53
+TORSDOF 17
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:     -10.2      0.964     10.412
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C23_1  and  C22_23 
+REMARK    2  A    between atoms: C33_7  and  C32_13 
+REMARK    3  A    between atoms: C32_13  and  O31_14 
+REMARK    4  A    between atoms: O31_14  and  C9_15 
+REMARK    5  A    between atoms: C9_15  and  C7_16 
+REMARK    6  A    between atoms: C9_15  and  C10_26 
+REMARK    7  A    between atoms: C7_16  and  C5_17 
+REMARK    8  A    between atoms: C7_16  and  O8_25 
+REMARK    9  A    between atoms: C5_17  and  C4_18 
+REMARK   10  A    between atoms: C5_17  and  O6_24 
+REMARK   11  A    between atoms: C4_18  and  C2_19 
+REMARK   12  A    between atoms: C4_18  and  O21_22 
+REMARK       I    between atoms: C2_19  and  N1_21 
+REMARK   13  A    between atoms: N1_21  and  C41_39 
+REMARK   14  A    between atoms: O21_22  and  C22_23 
+REMARK       I    between atoms: C10_26  and  N12_28 
+REMARK   15  A    between atoms: N12_28  and  C51_29 
+REMARK   16  A    between atoms: C59_35  and  O60_36 
+REMARK   17  A    between atoms: C49_45  and  O50_46 
+ROOT
+ATOM      1  C7  BEB A   1      13.308  23.626   5.359  1.00  0.00     0.188 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C9  BEB A   1      12.254  24.389   4.530  1.00  0.00     0.244 C 
+BRANCH   2   3
+ATOM      3  O31 BEB A   1      11.968  23.644   3.309  1.00  0.00    -0.369 OA
+BRANCH   3   4
+ATOM      4  C32 BEB A   1      11.427  24.417   2.197  1.00  0.00     0.207 C 
+BRANCH   4   5
+ATOM      5  C33 BEB A   1       9.892  24.465   2.118  1.00  0.00    -0.035 A 
+ATOM      6  C34 BEB A   1       9.118  23.302   2.417  1.00  0.00     0.009 A 
+ATOM      7  C35 BEB A   1       7.695  23.351   2.358  1.00  0.00     0.001 A 
+ATOM      8  C36 BEB A   1       7.042  24.564   2.003  1.00  0.00     0.000 A 
+ATOM      9  C37 BEB A   1       7.809  25.725   1.703  1.00  0.00     0.001 A 
+ATOM     10  C38 BEB A   1       9.232  25.676   1.762  1.00  0.00     0.009 A 
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2  11
+ATOM     11  C10 BEB A   1      11.034  24.513   5.387  1.00  0.00     0.250 C 
+ATOM     12  O11 BEB A   1      10.781  23.580   6.142  1.00  0.00    -0.271 OA
+ATOM     13  N12 BEB A   1      10.333  25.634   5.340  1.00  0.00    -0.348 N 
+ATOM     14  H22 BEB A   1      10.641  26.310   4.671  1.00  0.00     0.163 HD
+BRANCH  13  15
+ATOM     15  C51 BEB A   1       9.167  26.015   6.139  1.00  0.00     0.147 C 
+ATOM     16  C52 BEB A   1       9.584  26.625   7.477  1.00  0.00    -0.027 A 
+ATOM     17  C57 BEB A   1       8.640  27.570   7.938  1.00  0.00    -0.047 A 
+ATOM     18  C53 BEB A   1      10.749  26.360   8.253  1.00  0.00     0.010 A 
+ATOM     19  C56 BEB A   1       8.812  28.269   9.158  1.00  0.00     0.008 A 
+ATOM     20  C58 BEB A   1       7.497  27.678   6.944  1.00  0.00     0.073 C 
+ATOM     21  C55 BEB A   1       9.978  27.999   9.930  1.00  0.00     0.001 A 
+ATOM     22  C54 BEB A   1      10.945  27.051   9.483  1.00  0.00     0.001 A 
+ATOM     23  C59 BEB A   1       8.142  27.075   5.663  1.00  0.00     0.149 C 
+BRANCH  23  24
+ATOM     24  O60 BEB A   1       8.875  28.078   4.925  1.00  0.00    -0.393 OA
+ATOM     25  H28 BEB A   1       9.496  28.505   5.504  1.00  0.00     0.210 HD
+ENDBRANCH  23  24
+ENDBRANCH  13  15
+ENDBRANCH   2  11
+ENDBRANCH   1   2
+BRANCH   1  26
+ATOM     26  C5  BEB A   1      13.824  22.339   4.713  1.00  0.00     0.188 C 
+BRANCH  26  27
+ATOM     27  C4  BEB A   1      14.288  21.281   5.792  1.00  0.00     0.244 C 
+BRANCH  27  28
+ATOM     28  C2  BEB A   1      15.368  21.834   6.714  1.00  0.00     0.250 C 
+ATOM     29  O3  BEB A   1      15.952  22.853   6.376  1.00  0.00    -0.271 OA
+ATOM     30  N1  BEB A   1      15.658  21.158   7.818  1.00  0.00    -0.348 N 
+ATOM     31  H17 BEB A   1      15.097  20.345   7.970  1.00  0.00     0.163 HD
+BRANCH  30  32
+ATOM     32  C41 BEB A   1      16.677  21.412   8.860  1.00  0.00     0.147 C 
+ATOM     33  C42 BEB A   1      17.012  20.166   9.691  1.00  0.00    -0.027 A 
+ATOM     34  C47 BEB A   1      18.345  20.212  10.182  1.00  0.00    -0.047 A 
+ATOM     35  C43 BEB A   1      16.193  19.041   9.999  1.00  0.00     0.010 A 
+ATOM     36  C46 BEB A   1      18.894  19.166  10.979  1.00  0.00     0.008 A 
+ATOM     37  C48 BEB A   1      19.012  21.495   9.723  1.00  0.00     0.073 C 
+ATOM     38  C45 BEB A   1      18.059  18.037  11.283  1.00  0.00     0.001 A 
+ATOM     39  C44 BEB A   1      16.721  17.977  10.795  1.00  0.00     0.001 A 
+ATOM     40  C49 BEB A   1      18.117  21.869   8.503  1.00  0.00     0.149 C 
+BRANCH  40  41
+ATOM     41  O50 BEB A   1      18.523  21.146   7.313  1.00  0.00    -0.393 OA
+ATOM     42  H37 BEB A   1      18.787  20.265   7.555  1.00  0.00     0.210 HD
+ENDBRANCH  40  41
+ENDBRANCH  30  32
+ENDBRANCH  27  28
+BRANCH  27  43
+ATOM     43  O21 BEB A   1      14.808  20.085   5.107  1.00  0.00    -0.369 OA
+BRANCH  43  44
+ATOM     44  C22 BEB A   1      16.245  20.020   4.908  1.00  0.00     0.207 C 
+BRANCH  44  45
+ATOM     45  C23 BEB A   1      16.711  19.037   3.829  1.00  0.00    -0.035 A 
+ATOM     46  C24 BEB A   1      16.075  19.019   2.562  1.00  0.00     0.009 A 
+ATOM     47  C25 BEB A   1      16.496  18.099   1.564  1.00  0.00     0.001 A 
+ATOM     48  C26 BEB A   1      17.559  17.190   1.834  1.00  0.00     0.000 A 
+ATOM     49  C27 BEB A   1      18.199  17.205   3.104  1.00  0.00     0.001 A 
+ATOM     50  C28 BEB A   1      17.776  18.126   4.099  1.00  0.00     0.009 A 
+ENDBRANCH  44  45
+ENDBRANCH  43  44
+ENDBRANCH  27  43
+ENDBRANCH  26  27
+BRANCH  26  51
+ATOM     51  O6  BEB A   1      14.937  22.738   3.883  1.00  0.00    -0.390 OA
+ATOM     52  H20 BEB A   1      14.674  23.462   3.328  1.00  0.00     0.210 HD
+ENDBRANCH  26  51
+ENDBRANCH   1  26
+BRANCH   1  53
+ATOM     53  O8  BEB A   1      14.446  24.512   5.541  1.00  0.00    -0.390 OA
+ATOM     54  H21 BEB A   1      14.399  24.914   6.400  1.00  0.00     0.210 HD
+ENDBRANCH   1  53
+TORSDOF 17
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -9.3      1.169      4.088
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C23_1  and  C22_23 
+REMARK    2  A    between atoms: C33_7  and  C32_13 
+REMARK    3  A    between atoms: C32_13  and  O31_14 
+REMARK    4  A    between atoms: O31_14  and  C9_15 
+REMARK    5  A    between atoms: C9_15  and  C7_16 
+REMARK    6  A    between atoms: C9_15  and  C10_26 
+REMARK    7  A    between atoms: C7_16  and  C5_17 
+REMARK    8  A    between atoms: C7_16  and  O8_25 
+REMARK    9  A    between atoms: C5_17  and  C4_18 
+REMARK   10  A    between atoms: C5_17  and  O6_24 
+REMARK   11  A    between atoms: C4_18  and  C2_19 
+REMARK   12  A    between atoms: C4_18  and  O21_22 
+REMARK       I    between atoms: C2_19  and  N1_21 
+REMARK   13  A    between atoms: N1_21  and  C41_39 
+REMARK   14  A    between atoms: O21_22  and  C22_23 
+REMARK       I    between atoms: C10_26  and  N12_28 
+REMARK   15  A    between atoms: N12_28  and  C51_29 
+REMARK   16  A    between atoms: C59_35  and  O60_36 
+REMARK   17  A    between atoms: C49_45  and  O50_46 
+ROOT
+ATOM      1  C7  BEB A   1      14.365  23.214   5.354  1.00  0.00     0.188 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C9  BEB A   1      15.364  22.631   6.375  1.00  0.00     0.244 C 
+BRANCH   2   3
+ATOM      3  O31 BEB A   1      14.912  22.944   7.726  1.00  0.00    -0.369 OA
+BRANCH   3   4
+ATOM      4  C32 BEB A   1      15.946  23.005   8.752  1.00  0.00     0.207 C 
+BRANCH   4   5
+ATOM      5  C33 BEB A   1      16.513  21.646   9.193  1.00  0.00    -0.035 A 
+ATOM      6  C34 BEB A   1      15.681  20.705   9.875  1.00  0.00     0.009 A 
+ATOM      7  C35 BEB A   1      16.203  19.439  10.270  1.00  0.00     0.001 A 
+ATOM      8  C36 BEB A   1      17.557  19.109   9.983  1.00  0.00     0.000 A 
+ATOM      9  C37 BEB A   1      18.389  20.044   9.304  1.00  0.00     0.001 A 
+ATOM     10  C38 BEB A   1      17.867  21.309   8.909  1.00  0.00     0.009 A 
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2  11
+ATOM     11  C10 BEB A   1      15.406  21.153   6.146  1.00  0.00     0.250 C 
+ATOM     12  O11 BEB A   1      14.415  20.507   6.469  1.00  0.00    -0.271 OA
+ATOM     13  N12 BEB A   1      16.466  20.630   5.554  1.00  0.00    -0.348 N 
+ATOM     14  H22 BEB A   1      17.210  21.267   5.354  1.00  0.00     0.163 HD
+BRANCH  13  15
+ATOM     15  C51 BEB A   1      16.695  19.241   5.152  1.00  0.00     0.147 C 
+ATOM     16  C52 BEB A   1      16.384  19.032   3.670  1.00  0.00    -0.027 A 
+ATOM     17  C57 BEB A   1      17.179  18.008   3.108  1.00  0.00    -0.047 A 
+ATOM     18  C53 BEB A   1      15.441  19.719   2.851  1.00  0.00     0.010 A 
+ATOM     19  C56 BEB A   1      17.070  17.636   1.746  1.00  0.00     0.008 A 
+ATOM     20  C58 BEB A   1      18.100  17.434   4.170  1.00  0.00     0.073 C 
+ATOM     21  C55 BEB A   1      16.125  18.325   0.933  1.00  0.00     0.001 A 
+ATOM     22  C54 BEB A   1      15.314  19.362   1.478  1.00  0.00     0.001 A 
+ATOM     23  C59 BEB A   1      18.087  18.567   5.236  1.00  0.00     0.149 C 
+BRANCH  23  24
+ATOM     24  O60 BEB A   1      19.072  19.580   4.934  1.00  0.00    -0.393 OA
+ATOM     25  H28 BEB A   1      19.755  19.204   4.392  1.00  0.00     0.210 HD
+ENDBRANCH  23  24
+ENDBRANCH  13  15
+ENDBRANCH   2  11
+ENDBRANCH   1   2
+BRANCH   1  26
+ATOM     26  C5  BEB A   1      13.875  24.629   5.670  1.00  0.00     0.188 C 
+BRANCH  26  27
+ATOM     27  C4  BEB A   1      12.348  24.648   6.076  1.00  0.00     0.244 C 
+BRANCH  27  28
+ATOM     28  C2  BEB A   1      11.429  24.511   4.868  1.00  0.00     0.250 C 
+ATOM     29  O3  BEB A   1      11.421  25.411   4.041  1.00  0.00    -0.271 OA
+ATOM     30  N1  BEB A   1      10.645  23.444   4.794  1.00  0.00    -0.348 N 
+ATOM     31  H17 BEB A   1      10.761  22.787   5.538  1.00  0.00     0.163 HD
+BRANCH  30  32
+ATOM     32  C41 BEB A   1       9.627  23.069   3.788  1.00  0.00     0.147 C 
+ATOM     33  C42 BEB A   1       8.550  24.145   3.590  1.00  0.00    -0.027 A 
+ATOM     34  C47 BEB A   1       8.015  24.109   2.274  1.00  0.00    -0.047 A 
+ATOM     35  C43 BEB A   1       8.064  25.114   4.515  1.00  0.00     0.010 A 
+ATOM     36  C46 BEB A   1       7.002  25.014   1.844  1.00  0.00     0.008 A 
+ATOM     37  C48 BEB A   1       8.688  23.003   1.482  1.00  0.00     0.073 C 
+ATOM     38  C45 BEB A   1       6.520  25.987   2.785  1.00  0.00     0.001 A 
+ATOM     39  C44 BEB A   1       7.049  26.035   4.108  1.00  0.00     0.001 A 
+ATOM     40  C49 BEB A   1       9.999  22.811   2.303  1.00  0.00     0.149 C 
+BRANCH  40  41
+ATOM     41  O50 BEB A   1      11.001  23.790   1.927  1.00  0.00    -0.393 OA
+ATOM     42  H37 BEB A   1      11.472  24.074   2.702  1.00  0.00     0.210 HD
+ENDBRANCH  40  41
+ENDBRANCH  30  32
+ENDBRANCH  27  28
+BRANCH  27  43
+ATOM     43  O21 BEB A   1      12.045  25.913   6.768  1.00  0.00    -0.369 OA
+BRANCH  43  44
+ATOM     44  C22 BEB A   1      11.477  25.808   8.100  1.00  0.00     0.207 C 
+BRANCH  44  45
+ATOM     45  C23 BEB A   1      10.337  26.786   8.404  1.00  0.00    -0.035 A 
+ATOM     46  C24 BEB A   1      10.220  27.362   9.694  1.00  0.00     0.009 A 
+ATOM     47  C25 BEB A   1       9.157  28.259   9.982  1.00  0.00     0.001 A 
+ATOM     48  C26 BEB A   1       8.203  28.583   8.976  1.00  0.00     0.000 A 
+ATOM     49  C27 BEB A   1       8.317  28.007   7.680  1.00  0.00     0.001 A 
+ATOM     50  C28 BEB A   1       9.381  27.111   7.395  1.00  0.00     0.009 A 
+ENDBRANCH  44  45
+ENDBRANCH  43  44
+ENDBRANCH  27  43
+ENDBRANCH  26  27
+BRANCH  26  51
+ATOM     51  O6  BEB A   1      14.089  25.395   4.465  1.00  0.00    -0.390 OA
+ATOM     52  H20 BEB A   1      13.552  25.041   3.766  1.00  0.00     0.210 HD
+ENDBRANCH  26  51
+ENDBRANCH   1  26
+BRANCH   1  53
+ATOM     53  O8  BEB A   1      15.035  23.261   4.065  1.00  0.00    -0.390 OA
+ATOM     54  H21 BEB A   1      15.945  23.502   4.190  1.00  0.00     0.210 HD
+ENDBRANCH   1  53
+TORSDOF 17
+ENDMDL

@@ -1,0 +1,15 @@
+receptor = 4jfs_protein.pdbqt
+ligand = 4jfs_ligand.pdbqt
+target = 4jfs_ligand.pdbqt
+
+center_x = -16.114
+center_y = 11.372
+center_z = 33.355
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

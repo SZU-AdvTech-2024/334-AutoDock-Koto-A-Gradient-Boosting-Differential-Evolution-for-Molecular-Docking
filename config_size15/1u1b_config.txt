@@ -1,0 +1,15 @@
+receptor = 1u1b_protein.pdbqt
+ligand = 1u1b_ligand.pdbqt
+target = 1u1b_ligand.pdbqt
+
+center_x = -27.734
+center_y = -27.975
+center_z = 15.875
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

@@ -1,0 +1,35 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_3  and  C14_17 
+REMARK    2  A    between atoms: C8_11  and  C18_21 
+ROOT
+ATOM      1  N1  HUX A   1       5.960  69.581  65.309  1.00  0.00    -0.358 N 
+ATOM      2  H1  HUX A   1       6.934  69.611  65.008  1.00  0.00     0.166 HD
+ATOM      3  C1  HUX A   1       6.378  70.635  68.845  1.00  0.00     0.036 A 
+ATOM      4  C2  HUX A   1       6.670  70.277  67.434  1.00  0.00     0.054 A 
+ATOM      5  C3  HUX A   1       5.569  69.950  66.666  1.00  0.00     0.046 A 
+ATOM      6  C4  HUX A   1       4.975  69.198  64.470  1.00  0.00     0.019 A 
+ATOM      7  C5  HUX A   1       5.519  68.784  62.997  1.00  0.00     0.066 C 
+ATOM      8  C6  HUX A   1       4.527  67.880  62.246  1.00  0.00     0.014 C 
+ATOM      9  C7  HUX A   1       4.282  66.405  62.996  1.00  0.00    -0.019 C 
+ATOM     10  C8  HUX A   1       3.305  66.089  63.849  1.00  0.00    -0.083 C 
+ATOM     11  C9  HUX A   1       2.303  67.180  64.150  1.00  0.00     0.043 C 
+ATOM     12  C11 HUX A   1       2.621  68.602  63.709  1.00  0.00     0.027 C 
+ATOM     13  C12 HUX A   1       3.171  68.555  62.217  1.00  0.00     0.018 C 
+ATOM     14  C13 HUX A   1       3.623  69.110  64.752  1.00  0.00    -0.004 A 
+ATOM     15  C14 HUX A   1       3.228  69.512  66.146  1.00  0.00     0.047 A 
+ATOM     16  C15 HUX A   1       4.248  69.912  67.043  1.00  0.00     0.018 A 
+ATOM     17  C16 HUX A   1       3.913  70.303  68.461  1.00  0.00     0.018 A 
+ATOM     18  C17 HUX A   1       4.934  70.630  69.274  1.00  0.00     0.025 A 
+ATOM     19 CL1  HUX A   1       7.560  70.996  69.959  1.00  0.00    -0.084 Cl
+ENDROOT
+BRANCH  15  20
+ATOM     20  N2  HUX A   1       1.886  69.430  66.469  1.00  0.00    -0.398 N 
+ATOM     21  H1  HUX A   1       1.203  69.130  65.759  1.00  0.00     0.156 HD
+ATOM     22  H2  HUX A   1       1.569  69.669  67.420  1.00  0.00     0.156 HD
+ENDBRANCH  15  20
+BRANCH  10  23
+ATOM     23  C18 HUX A   1       3.279  64.636  64.466  1.00  0.00     0.029 C 
+ATOM     24  C10 HUX A   1       4.394  63.619  64.131  1.00  0.00     0.010 C 
+ENDBRANCH  10  23
+TORSDOF 2

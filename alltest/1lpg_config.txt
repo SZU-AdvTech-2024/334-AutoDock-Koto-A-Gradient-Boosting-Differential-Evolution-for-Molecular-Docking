@@ -1,0 +1,15 @@
+receptor = 1lpg_protein.pdbqt
+ligand = 1lpg_ligand.pdbqt
+target = 1lpg_ligand.pdbqt
+
+center_x = 5.073
+center_y = 7.393
+center_z = 22.453
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

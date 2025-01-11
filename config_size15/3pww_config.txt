@@ -1,0 +1,15 @@
+receptor = 3pww_protein.pdbqt
+ligand = 3pww_ligand.pdbqt
+target = 3pww_ligand.pdbqt
+
+center_x = -1.49
+center_y = 4.875
+center_z = 9.135
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

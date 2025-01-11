@@ -1,0 +1,15 @@
+receptor = 4kzq_protein.pdbqt
+ligand = 4kzq_ligand.pdbqt
+target = 4kzq_ligand.pdbqt
+
+center_x = -6.449
+center_y = 36.973
+center_z = -11.309
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

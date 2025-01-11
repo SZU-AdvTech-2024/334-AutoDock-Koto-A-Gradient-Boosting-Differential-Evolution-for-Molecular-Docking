@@ -1,0 +1,15 @@
+receptor = 4gr0_protein.pdbqt
+ligand = 4gr0_ligand.pdbqt
+target = 4gr0_ligand.pdbqt
+
+center_x = -6.109
+center_y = 25.81
+center_z = -4.645
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

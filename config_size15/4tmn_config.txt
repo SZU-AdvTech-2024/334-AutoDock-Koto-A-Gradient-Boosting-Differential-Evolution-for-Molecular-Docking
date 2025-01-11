@@ -1,0 +1,15 @@
+receptor = 4tmn_protein.pdbqt
+ligand = 4tmn_ligand.pdbqt
+target = 4tmn_ligand.pdbqt
+
+center_x = 50.893
+center_y = 17.83
+center_z = -7.115
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

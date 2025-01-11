@@ -1,0 +1,15 @@
+receptor = 1z95_protein.pdbqt
+ligand = 1z95_ligand.pdbqt
+target = 1z95_ligand.pdbqt
+
+center_x = 27.744
+center_y = 3.191
+center_z = 8.152
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

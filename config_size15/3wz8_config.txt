@@ -1,0 +1,15 @@
+receptor = 3wz8_protein.pdbqt
+ligand = 3wz8_ligand.pdbqt
+target = 3wz8_ligand.pdbqt
+
+center_x = 23.516
+center_y = 3.291
+center_z = 58.584
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

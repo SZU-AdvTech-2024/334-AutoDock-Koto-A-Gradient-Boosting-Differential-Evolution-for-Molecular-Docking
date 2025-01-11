@@ -1,0 +1,15 @@
+receptor = 3dx2_protein.pdbqt
+ligand = 3dx2_ligand.pdbqt
+target = 3dx2_ligand.pdbqt
+
+center_x = 31.295
+center_y = 65.504
+center_z = 8.369
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

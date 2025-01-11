@@ -1,0 +1,16 @@
+Reading input ... done.
+Setting up the scoring function ... done.
+Using random seed: -136922124
+Performing search ... done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.5      4.593      6.234
+   2         -6.3      6.938      8.207
+   3         -5.4      5.461      6.600
+   4         -5.0      6.908      8.402
+   5         -3.7      3.401      7.544
+Writing output ... done.
+

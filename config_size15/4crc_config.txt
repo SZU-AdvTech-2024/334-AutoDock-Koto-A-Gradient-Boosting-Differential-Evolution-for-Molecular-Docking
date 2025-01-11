@@ -1,0 +1,15 @@
+receptor = 4crc_protein.pdbqt
+ligand = 4crc_ligand.pdbqt
+target = 4crc_ligand.pdbqt
+
+center_x = -51.099
+center_y = -8.916
+center_z = -23.066
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

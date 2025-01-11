@@ -1,0 +1,15 @@
+receptor = 2xdl_protein.pdbqt
+ligand = 2xdl_ligand.pdbqt
+target = 2xdl_ligand.pdbqt
+
+center_x = 65.987
+center_y = 35.41
+center_z = 25.596
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

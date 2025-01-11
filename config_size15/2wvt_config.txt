@@ -1,0 +1,15 @@
+receptor = 2wvt_protein.pdbqt
+ligand = 2wvt_ligand.pdbqt
+target = 2wvt_ligand.pdbqt
+
+center_x = -26.766
+center_y = 3.316
+center_z = 27.472
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

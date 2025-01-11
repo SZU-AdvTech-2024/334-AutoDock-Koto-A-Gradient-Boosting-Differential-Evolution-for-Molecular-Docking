@@ -1,0 +1,15 @@
+receptor = 3arp_protein.pdbqt
+ligand = 3arp_ligand.pdbqt
+target = 3arp_ligand.pdbqt
+
+center_x = 14.716
+center_y = -7.402
+center_z = 26.41
+
+size_x = 16
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

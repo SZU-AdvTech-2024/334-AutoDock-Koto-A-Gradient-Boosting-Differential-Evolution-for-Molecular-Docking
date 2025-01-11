@@ -1,0 +1,15 @@
+receptor = 1bzc_protein.pdbqt
+ligand = 1bzc_ligand.pdbqt
+target = 1bzc_ligand.pdbqt
+
+center_x = -18.643
+center_y = 53.416
+center_z = 16.805
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

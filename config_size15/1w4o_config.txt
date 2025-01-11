@@ -1,0 +1,15 @@
+receptor = 1w4o_protein.pdbqt
+ligand = 1w4o_ligand.pdbqt
+target = 1w4o_ligand.pdbqt
+
+center_x = 37.686
+center_y = -0.324
+center_z = 12.584
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

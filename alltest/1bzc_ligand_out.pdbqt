@@ -1,0 +1,396 @@
+MODEL 1
+REMARK VINA RESULT:      -9.6      0.785      1.223
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  C1_5 
+REMARK    2  A    between atoms: C1_5  and  C3_7 
+REMARK    3  A    between atoms: C7_11  and  C12_16 
+REMARK       I    between atoms: C12_16  and  N1_18 
+REMARK    4  A    between atoms: N1_18  and  C13_19 
+REMARK    5  A    between atoms: C13_19  and  C15_23 
+REMARK    6  A    between atoms: C13_19  and  C14_20 
+REMARK       I    between atoms: C14_20  and  N2_21 
+REMARK    7  A    between atoms: C15_23  and  C16_24 
+REMARK    8  A    between atoms: C16_24  and  C17_25 
+ROOT
+ATOM      1  C2  TPI A   1     -21.014  55.842  14.949  1.00  0.00     0.026 A 
+ATOM      2  C3  TPI A   1     -20.742  57.217  14.772  1.00  0.00     0.028 A 
+ATOM      3  C4  TPI A   1     -19.807  57.855  15.607  1.00  0.00     0.015 A 
+ATOM      4  C5  TPI A   1     -19.153  57.151  16.616  1.00  0.00     0.013 A 
+ATOM      5  C6  TPI A   1     -18.790  55.107  17.852  1.00  0.00     0.029 A 
+ATOM      6  C7  TPI A   1     -19.046  53.750  18.078  1.00  0.00     0.032 A 
+ATOM      7  C8  TPI A   1     -19.954  53.064  17.238  1.00  0.00     0.018 A 
+ATOM      8  C9  TPI A   1     -20.612  53.751  16.188  1.00  0.00     0.013 A 
+ATOM      9  C10 TPI A   1     -20.354  55.121  15.973  1.00  0.00    -0.025 A 
+ATOM     10  C11 TPI A   1     -19.431  55.793  16.808  1.00  0.00    -0.025 A 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C12 TPI A   1     -18.338  53.045  19.225  1.00  0.00     0.252 C 
+ATOM     12  N1  TPI A   1     -17.917  51.649  19.083  1.00  0.00    -0.344 N 
+ATOM     13  H7  TPI A   1     -18.080  51.118  18.250  1.00  0.00     0.163 HD
+ATOM     14  O4  TPI A   1     -18.138  53.682  20.250  1.00  0.00    -0.268 OA
+BRANCH  12  15
+ATOM     15  C13 TPI A   1     -17.236  51.088  20.260  1.00  0.00     0.177 C 
+BRANCH  15  16
+ATOM     16  C15 TPI A   1     -17.608  49.601  20.451  1.00  0.00     0.045 C 
+BRANCH  16  17
+ATOM     17  C16 TPI A   1     -18.648  49.412  21.565  1.00  0.00     0.116 C 
+BRANCH  17  18
+ATOM     18  C17 TPI A   1     -20.020  49.398  20.959  1.00  0.00     0.172 C 
+ATOM     19  O7  TPI A   1     -20.644  48.360  20.744  1.00  0.00    -0.648 OA
+ATOM     20  O6  TPI A   1     -20.524  50.596  20.677  1.00  0.00    -0.648 OA
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+BRANCH  15  21
+ATOM     21  C14 TPI A   1     -15.730  51.201  20.291  1.00  0.00     0.238 C 
+ATOM     22  O5  TPI A   1     -15.012  50.282  19.931  1.00  0.00    -0.271 OA
+ATOM     23  N2  TPI A   1     -15.151  52.425  20.802  1.00  0.00    -0.368 N 
+ATOM     24  H9  TPI A   1     -14.157  52.532  20.837  1.00  0.00     0.159 HD
+ATOM     25  H10 TPI A   1     -15.745  53.164  21.122  1.00  0.00     0.159 HD
+ENDBRANCH  15  21
+ENDBRANCH  12  15
+ENDBRANCH   6  11
+BRANCH   2  26
+ATOM     26  C1  TPI A   1     -21.486  58.060  13.734  1.00  0.00     0.380 C 
+ATOM     27  F2  TPI A   1     -22.585  57.405  13.357  1.00  0.00    -0.185 F 
+ATOM     28  F1  TPI A   1     -21.841  59.227  14.322  1.00  0.00    -0.185 F 
+BRANCH  26  29
+ATOM     29  P   TPI A   1     -20.557  58.417  12.243  1.00  0.00     0.339 P 
+ATOM     30  O3  TPI A   1     -20.446  57.097  11.370  1.00  0.00    -0.635 OA
+ATOM     31  O2  TPI A   1     -19.211  58.872  12.648  1.00  0.00    -0.635 OA
+ATOM     32  O1  TPI A   1     -21.306  59.548  11.417  1.00  0.00    -0.635 OA
+ENDBRANCH  26  29
+ENDBRANCH   2  26
+TORSDOF 8
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -9.1      1.192      1.432
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  C1_5 
+REMARK    2  A    between atoms: C1_5  and  C3_7 
+REMARK    3  A    between atoms: C7_11  and  C12_16 
+REMARK       I    between atoms: C12_16  and  N1_18 
+REMARK    4  A    between atoms: N1_18  and  C13_19 
+REMARK    5  A    between atoms: C13_19  and  C15_23 
+REMARK    6  A    between atoms: C13_19  and  C14_20 
+REMARK       I    between atoms: C14_20  and  N2_21 
+REMARK    7  A    between atoms: C15_23  and  C16_24 
+REMARK    8  A    between atoms: C16_24  and  C17_25 
+ROOT
+ATOM      1  C2  TPI A   1     -21.202  55.721  14.829  1.00  0.00     0.026 A 
+ATOM      2  C3  TPI A   1     -20.887  57.081  14.612  1.00  0.00     0.028 A 
+ATOM      3  C4  TPI A   1     -19.919  57.710  15.417  1.00  0.00     0.015 A 
+ATOM      4  C5  TPI A   1     -19.274  57.010  16.436  1.00  0.00     0.013 A 
+ATOM      5  C6  TPI A   1     -18.962  54.989  17.721  1.00  0.00     0.029 A 
+ATOM      6  C7  TPI A   1     -19.260  53.648  17.987  1.00  0.00     0.032 A 
+ATOM      7  C8  TPI A   1     -20.203  52.971  17.177  1.00  0.00     0.018 A 
+ATOM      8  C9  TPI A   1     -20.852  53.651  16.118  1.00  0.00     0.013 A 
+ATOM      9  C10 TPI A   1     -20.552  55.006  15.864  1.00  0.00    -0.025 A 
+ATOM     10  C11 TPI A   1     -19.595  55.668  16.668  1.00  0.00    -0.025 A 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C12 TPI A   1     -18.559  52.950  19.142  1.00  0.00     0.252 C 
+ATOM     12  N1  TPI A   1     -18.994  51.618  19.571  1.00  0.00    -0.344 N 
+ATOM     13  H7  TPI A   1     -19.752  51.132  19.135  1.00  0.00     0.163 HD
+ATOM     14  O4  TPI A   1     -17.634  53.537  19.686  1.00  0.00    -0.268 OA
+BRANCH  12  15
+ATOM     15  C13 TPI A   1     -18.229  51.051  20.692  1.00  0.00     0.177 C 
+BRANCH  15  16
+ATOM     16  C15 TPI A   1     -19.161  50.716  21.878  1.00  0.00     0.045 C 
+BRANCH  16  17
+ATOM     17  C16 TPI A   1     -20.642  50.846  21.493  1.00  0.00     0.116 C 
+BRANCH  17  18
+ATOM     18  C17 TPI A   1     -21.301  49.505  21.618  1.00  0.00     0.172 C 
+ATOM     19  O7  TPI A   1     -22.102  49.236  22.512  1.00  0.00    -0.648 OA
+ATOM     20  O6  TPI A   1     -20.965  48.622  20.682  1.00  0.00    -0.648 OA
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+BRANCH  15  21
+ATOM     21  C14 TPI A   1     -17.393  49.829  20.394  1.00  0.00     0.238 C 
+ATOM     22  O5  TPI A   1     -16.174  49.881  20.356  1.00  0.00    -0.271 OA
+ATOM     23  N2  TPI A   1     -18.081  48.587  20.109  1.00  0.00    -0.368 N 
+ATOM     24  H9  TPI A   1     -17.557  47.760  19.908  1.00  0.00     0.159 HD
+ATOM     25  H10 TPI A   1     -19.080  48.557  20.114  1.00  0.00     0.159 HD
+ENDBRANCH  15  21
+ENDBRANCH  12  15
+ENDBRANCH   6  11
+BRANCH   2  26
+ATOM     26  C1  TPI A   1     -21.618  57.922  13.562  1.00  0.00     0.380 C 
+ATOM     27  F2  TPI A   1     -22.677  57.237  13.126  1.00  0.00    -0.185 F 
+ATOM     28  F1  TPI A   1     -22.037  59.062  14.159  1.00  0.00    -0.185 F 
+BRANCH  26  29
+ATOM     29  P   TPI A   1     -20.642  58.343  12.118  1.00  0.00     0.339 P 
+ATOM     30  O3  TPI A   1     -19.234  58.905  12.587  1.00  0.00    -0.635 OA
+ATOM     31  O2  TPI A   1     -21.377  59.381  11.366  1.00  0.00    -0.635 OA
+ATOM     32  O1  TPI A   1     -20.436  57.045  11.227  1.00  0.00    -0.635 OA
+ENDBRANCH  26  29
+ENDBRANCH   2  26
+TORSDOF 8
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -8.9      1.541      3.068
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  C1_5 
+REMARK    2  A    between atoms: C1_5  and  C3_7 
+REMARK    3  A    between atoms: C7_11  and  C12_16 
+REMARK       I    between atoms: C12_16  and  N1_18 
+REMARK    4  A    between atoms: N1_18  and  C13_19 
+REMARK    5  A    between atoms: C13_19  and  C15_23 
+REMARK    6  A    between atoms: C13_19  and  C14_20 
+REMARK       I    between atoms: C14_20  and  N2_21 
+REMARK    7  A    between atoms: C15_23  and  C16_24 
+REMARK    8  A    between atoms: C16_24  and  C17_25 
+ROOT
+ATOM      1  C2  TPI A   1     -21.085  55.819  14.916  1.00  0.00     0.026 A 
+ATOM      2  C3  TPI A   1     -20.807  57.188  14.707  1.00  0.00     0.028 A 
+ATOM      3  C4  TPI A   1     -19.861  57.839  15.520  1.00  0.00     0.015 A 
+ATOM      4  C5  TPI A   1     -19.203  57.153  16.540  1.00  0.00     0.013 A 
+ATOM      5  C6  TPI A   1     -18.842  55.136  17.818  1.00  0.00     0.029 A 
+ATOM      6  C7  TPI A   1     -19.104  53.785  18.076  1.00  0.00     0.032 A 
+ATOM      7  C8  TPI A   1     -20.023  53.086  17.258  1.00  0.00     0.018 A 
+ATOM      8  C9  TPI A   1     -20.685  53.753  16.199  1.00  0.00     0.013 A 
+ATOM      9  C10 TPI A   1     -20.421  55.117  15.952  1.00  0.00    -0.025 A 
+ATOM     10  C11 TPI A   1     -19.488  55.802  16.764  1.00  0.00    -0.025 A 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C12 TPI A   1     -18.391  53.102  19.232  1.00  0.00     0.252 C 
+ATOM     12  N1  TPI A   1     -18.028  51.685  19.140  1.00  0.00    -0.344 N 
+ATOM     13  H7  TPI A   1     -18.236  51.127  18.336  1.00  0.00     0.163 HD
+ATOM     14  O4  TPI A   1     -18.137  53.774  20.223  1.00  0.00    -0.268 OA
+BRANCH  12  15
+ATOM     15  C13 TPI A   1     -17.336  51.148  20.321  1.00  0.00     0.177 C 
+BRANCH  15  16
+ATOM     16  C15 TPI A   1     -15.895  51.699  20.409  1.00  0.00     0.045 C 
+BRANCH  16  17
+ATOM     17  C16 TPI A   1     -14.850  50.615  20.107  1.00  0.00     0.116 C 
+BRANCH  17  18
+ATOM     18  C17 TPI A   1     -13.480  51.173  20.352  1.00  0.00     0.172 C 
+ATOM     19  O7  TPI A   1     -13.248  52.380  20.387  1.00  0.00    -0.648 OA
+ATOM     20  O6  TPI A   1     -12.527  50.264  20.542  1.00  0.00    -0.648 OA
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+BRANCH  15  21
+ATOM     21  C14 TPI A   1     -18.003  51.367  21.658  1.00  0.00     0.238 C 
+ATOM     22  O5  TPI A   1     -19.108  50.910  21.904  1.00  0.00    -0.271 OA
+ATOM     23  N2  TPI A   1     -17.313  52.178  22.639  1.00  0.00    -0.368 N 
+ATOM     24  H9  TPI A   1     -17.727  52.342  23.533  1.00  0.00     0.159 HD
+ATOM     25  H10 TPI A   1     -16.420  52.573  22.421  1.00  0.00     0.159 HD
+ENDBRANCH  15  21
+ENDBRANCH  12  15
+ENDBRANCH   6  11
+BRANCH   2  26
+ATOM     26  C1  TPI A   1     -21.554  58.012  13.657  1.00  0.00     0.380 C 
+ATOM     27  F2  TPI A   1     -22.651  57.346  13.290  1.00  0.00    -0.185 F 
+ATOM     28  F1  TPI A   1     -21.914  59.186  14.227  1.00  0.00    -0.185 F 
+BRANCH  26  29
+ATOM     29  P   TPI A   1     -20.627  58.350  12.160  1.00  0.00     0.339 P 
+ATOM     30  O3  TPI A   1     -21.417  59.415  11.287  1.00  0.00    -0.635 OA
+ATOM     31  O2  TPI A   1     -20.496  57.081  11.415  1.00  0.00    -0.635 OA
+ATOM     32  O1  TPI A   1     -19.198  58.924  12.547  1.00  0.00    -0.635 OA
+ENDBRANCH  26  29
+ENDBRANCH   2  26
+TORSDOF 8
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -7.6      1.894      2.868
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  C1_5 
+REMARK    2  A    between atoms: C1_5  and  C3_7 
+REMARK    3  A    between atoms: C7_11  and  C12_16 
+REMARK       I    between atoms: C12_16  and  N1_18 
+REMARK    4  A    between atoms: N1_18  and  C13_19 
+REMARK    5  A    between atoms: C13_19  and  C15_23 
+REMARK    6  A    between atoms: C13_19  and  C14_20 
+REMARK       I    between atoms: C14_20  and  N2_21 
+REMARK    7  A    between atoms: C15_23  and  C16_24 
+REMARK    8  A    between atoms: C16_24  and  C17_25 
+ROOT
+ATOM      1  C2  TPI A   1     -21.191  55.830  14.892  1.00  0.00     0.026 A 
+ATOM      2  C3  TPI A   1     -20.815  57.184  14.750  1.00  0.00     0.028 A 
+ATOM      3  C4  TPI A   1     -19.836  57.728  15.601  1.00  0.00     0.015 A 
+ATOM      4  C5  TPI A   1     -19.239  56.951  16.592  1.00  0.00     0.013 A 
+ATOM      5  C6  TPI A   1     -19.035  54.855  17.776  1.00  0.00     0.029 A 
+ATOM      6  C7  TPI A   1     -19.394  53.517  17.968  1.00  0.00     0.032 A 
+ATOM      7  C8  TPI A   1     -20.351  52.923  17.111  1.00  0.00     0.018 A 
+ATOM      8  C9  TPI A   1     -20.953  53.684  16.079  1.00  0.00     0.013 A 
+ATOM      9  C10 TPI A   1     -20.591  55.036  15.898  1.00  0.00    -0.025 A 
+ATOM     10  C11 TPI A   1     -19.621  55.614  16.750  1.00  0.00    -0.025 A 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C12 TPI A   1     -18.744  52.731  19.096  1.00  0.00     0.252 C 
+ATOM     12  N1  TPI A   1     -17.365  53.023  19.497  1.00  0.00    -0.344 N 
+ATOM     13  H7  TPI A   1     -16.812  53.728  19.052  1.00  0.00     0.163 HD
+ATOM     14  O4  TPI A   1     -19.409  51.862  19.644  1.00  0.00    -0.268 OA
+BRANCH  12  15
+ATOM     15  C13 TPI A   1     -16.858  52.199  20.605  1.00  0.00     0.177 C 
+BRANCH  15  16
+ATOM     16  C15 TPI A   1     -17.886  52.136  21.756  1.00  0.00     0.045 C 
+BRANCH  16  17
+ATOM     17  C16 TPI A   1     -17.654  53.248  22.790  1.00  0.00     0.116 C 
+BRANCH  17  18
+ATOM     18  C17 TPI A   1     -17.150  54.473  22.087  1.00  0.00     0.172 C 
+ATOM     19  O7  TPI A   1     -15.954  54.746  21.998  1.00  0.00    -0.648 OA
+ATOM     20  O6  TPI A   1     -18.093  55.245  21.553  1.00  0.00    -0.648 OA
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+BRANCH  15  21
+ATOM     21  C14 TPI A   1     -16.446  50.786  20.266  1.00  0.00     0.238 C 
+ATOM     22  O5  TPI A   1     -15.335  50.530  19.831  1.00  0.00    -0.271 OA
+ATOM     23  N2  TPI A   1     -17.427  49.733  20.433  1.00  0.00    -0.368 N 
+ATOM     24  H9  TPI A   1     -17.187  48.787  20.218  1.00  0.00     0.159 HD
+ATOM     25  H10 TPI A   1     -18.345  49.954  20.763  1.00  0.00     0.159 HD
+ENDBRANCH  15  21
+ENDBRANCH  12  15
+ENDBRANCH   6  11
+BRANCH   2  26
+ATOM     26  C1  TPI A   1     -21.491  58.108  13.734  1.00  0.00     0.380 C 
+ATOM     27  F2  TPI A   1     -22.648  57.558  13.359  1.00  0.00    -0.185 F 
+ATOM     28  F1  TPI A   1     -21.736  59.291  14.344  1.00  0.00    -0.185 F 
+BRANCH  26  29
+ATOM     29  P   TPI A   1     -20.549  58.405  12.238  1.00  0.00     0.339 P 
+ATOM     30  O3  TPI A   1     -19.089  58.887  12.630  1.00  0.00    -0.635 OA
+ATOM     31  O2  TPI A   1     -21.242  59.461  11.472  1.00  0.00    -0.635 OA
+ATOM     32  O1  TPI A   1     -20.466  57.063  11.395  1.00  0.00    -0.635 OA
+ENDBRANCH  26  29
+ENDBRANCH   2  26
+TORSDOF 8
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -7.2      1.987      3.065
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  C1_5 
+REMARK    2  A    between atoms: C1_5  and  C3_7 
+REMARK    3  A    between atoms: C7_11  and  C12_16 
+REMARK       I    between atoms: C12_16  and  N1_18 
+REMARK    4  A    between atoms: N1_18  and  C13_19 
+REMARK    5  A    between atoms: C13_19  and  C15_23 
+REMARK    6  A    between atoms: C13_19  and  C14_20 
+REMARK       I    between atoms: C14_20  and  N2_21 
+REMARK    7  A    between atoms: C15_23  and  C16_24 
+REMARK    8  A    between atoms: C16_24  and  C17_25 
+ROOT
+ATOM      1  C2  TPI A   1     -20.634  56.010  14.299  1.00  0.00     0.026 A 
+ATOM      2  C3  TPI A   1     -20.193  57.340  14.114  1.00  0.00     0.028 A 
+ATOM      3  C4  TPI A   1     -19.361  57.939  15.077  1.00  0.00     0.015 A 
+ATOM      4  C5  TPI A   1     -18.975  57.241  16.221  1.00  0.00     0.013 A 
+ATOM      5  C6  TPI A   1     -19.055  55.255  17.593  1.00  0.00     0.029 A 
+ATOM      6  C7  TPI A   1     -19.488  53.945  17.829  1.00  0.00     0.032 A 
+ATOM      7  C8  TPI A   1     -20.297  53.296  16.867  1.00  0.00     0.018 A 
+ATOM      8  C9  TPI A   1     -20.681  53.974  15.684  1.00  0.00     0.013 A 
+ATOM      9  C10 TPI A   1     -20.247  55.297  15.459  1.00  0.00    -0.025 A 
+ATOM     10  C11 TPI A   1     -19.424  55.931  16.419  1.00  0.00    -0.025 A 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C12 TPI A   1     -19.073  53.250  19.117  1.00  0.00     0.252 C 
+ATOM     12  N1  TPI A   1     -19.594  51.918  19.436  1.00  0.00    -0.344 N 
+ATOM     13  H7  TPI A   1     -20.229  51.430  18.836  1.00  0.00     0.163 HD
+ATOM     14  O4  TPI A   1     -18.301  53.841  19.861  1.00  0.00    -0.268 OA
+BRANCH  12  15
+ATOM     15  C13 TPI A   1     -19.109  51.355  20.705  1.00  0.00     0.177 C 
+BRANCH  15  16
+ATOM     16  C15 TPI A   1     -19.311  52.358  21.862  1.00  0.00     0.045 C 
+BRANCH  16  17
+ATOM     17  C16 TPI A   1     -18.610  51.895  23.148  1.00  0.00     0.116 C 
+BRANCH  17  18
+ATOM     18  C17 TPI A   1     -17.131  52.099  23.001  1.00  0.00     0.172 C 
+ATOM     19  O7  TPI A   1     -16.636  53.173  22.663  1.00  0.00    -0.648 OA
+ATOM     20  O6  TPI A   1     -16.385  51.033  23.275  1.00  0.00    -0.648 OA
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+BRANCH  15  21
+ATOM     21  C14 TPI A   1     -19.697  50.029  21.128  1.00  0.00     0.238 C 
+ATOM     22  O5  TPI A   1     -20.890  49.901  21.354  1.00  0.00    -0.271 OA
+ATOM     23  N2  TPI A   1     -18.796  48.909  21.300  1.00  0.00    -0.368 N 
+ATOM     24  H9  TPI A   1     -19.153  48.018  21.579  1.00  0.00     0.159 HD
+ATOM     25  H10 TPI A   1     -17.816  49.028  21.141  1.00  0.00     0.159 HD
+ENDBRANCH  15  21
+ENDBRANCH  12  15
+ENDBRANCH   6  11
+BRANCH   2  26
+ATOM     26  C1  TPI A   1     -20.647  58.182  12.920  1.00  0.00     0.380 C 
+ATOM     27  F2  TPI A   1     -19.687  59.060  12.624  1.00  0.00    -0.185 F 
+ATOM     28  F1  TPI A   1     -20.829  57.349  11.868  1.00  0.00    -0.185 F 
+BRANCH  26  29
+ATOM     29  P   TPI A   1     -22.149  59.125  13.185  1.00  0.00     0.339 P 
+ATOM     30  O3  TPI A   1     -23.384  58.131  13.241  1.00  0.00    -0.635 OA
+ATOM     31  O2  TPI A   1     -22.301  60.059  12.051  1.00  0.00    -0.635 OA
+ATOM     32  O1  TPI A   1     -22.033  59.920  14.555  1.00  0.00    -0.635 OA
+ENDBRANCH  26  29
+ENDBRANCH   2  26
+TORSDOF 8
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -6.8      2.725      3.699
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  C1_5 
+REMARK    2  A    between atoms: C1_5  and  C3_7 
+REMARK    3  A    between atoms: C7_11  and  C12_16 
+REMARK       I    between atoms: C12_16  and  N1_18 
+REMARK    4  A    between atoms: N1_18  and  C13_19 
+REMARK    5  A    between atoms: C13_19  and  C15_23 
+REMARK    6  A    between atoms: C13_19  and  C14_20 
+REMARK       I    between atoms: C14_20  and  N2_21 
+REMARK    7  A    between atoms: C15_23  and  C16_24 
+REMARK    8  A    between atoms: C16_24  and  C17_25 
+ROOT
+ATOM      1  C2  TPI A   1     -20.892  55.751  14.258  1.00  0.00     0.026 A 
+ATOM      2  C3  TPI A   1     -20.428  57.073  14.071  1.00  0.00     0.028 A 
+ATOM      3  C4  TPI A   1     -19.611  57.670  15.047  1.00  0.00     0.015 A 
+ATOM      4  C5  TPI A   1     -19.262  56.978  16.206  1.00  0.00     0.013 A 
+ATOM      5  C6  TPI A   1     -19.402  55.008  17.596  1.00  0.00     0.029 A 
+ATOM      6  C7  TPI A   1     -19.859  53.706  17.835  1.00  0.00     0.032 A 
+ATOM      7  C8  TPI A   1     -20.655  53.059  16.860  1.00  0.00     0.018 A 
+ATOM      8  C9  TPI A   1     -21.001  53.730  15.662  1.00  0.00     0.013 A 
+ATOM      9  C10 TPI A   1     -20.543  55.045  15.434  1.00  0.00    -0.025 A 
+ATOM     10  C11 TPI A   1     -19.734  55.676  16.407  1.00  0.00    -0.025 A 
+ENDROOT
+BRANCH   6  11
+ATOM     11  C12 TPI A   1     -19.486  53.019  19.139  1.00  0.00     0.252 C 
+ATOM     12  N1  TPI A   1     -20.487  52.851  20.196  1.00  0.00    -0.344 N 
+ATOM     13  H7  TPI A   1     -21.428  53.178  20.104  1.00  0.00     0.163 HD
+ATOM     14  O4  TPI A   1     -18.336  52.620  19.265  1.00  0.00    -0.268 OA
+BRANCH  12  15
+ATOM     15  C13 TPI A   1     -20.000  52.164  21.402  1.00  0.00     0.177 C 
+BRANCH  15  16
+ATOM     16  C15 TPI A   1     -20.690  52.721  22.666  1.00  0.00     0.045 C 
+BRANCH  16  17
+ATOM     17  C16 TPI A   1     -21.987  53.470  22.325  1.00  0.00     0.116 C 
+BRANCH  17  18
+ATOM     18  C17 TPI A   1     -21.892  54.875  22.841  1.00  0.00     0.172 C 
+ATOM     19  O7  TPI A   1     -20.978  55.639  22.534  1.00  0.00    -0.648 OA
+ATOM     20  O6  TPI A   1     -22.879  55.245  23.653  1.00  0.00    -0.648 OA
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+BRANCH  15  21
+ATOM     21  C14 TPI A   1     -20.127  50.659  21.424  1.00  0.00     0.238 C 
+ATOM     22  O5  TPI A   1     -19.328  49.958  22.024  1.00  0.00    -0.271 OA
+ATOM     23  N2  TPI A   1     -21.209  50.057  20.673  1.00  0.00    -0.368 N 
+ATOM     24  H9  TPI A   1     -21.322  49.064  20.667  1.00  0.00     0.159 HD
+ATOM     25  H10 TPI A   1     -21.844  50.635  20.161  1.00  0.00     0.159 HD
+ENDBRANCH  15  21
+ENDBRANCH  12  15
+ENDBRANCH   6  11
+BRANCH   2  26
+ATOM     26  C1  TPI A   1     -20.842  57.909  12.857  1.00  0.00     0.380 C 
+ATOM     27  F2  TPI A   1     -19.773  58.569  12.407  1.00  0.00    -0.185 F 
+ATOM     28  F1  TPI A   1     -21.280  57.061  11.897  1.00  0.00    -0.185 F 
+BRANCH  26  29
+ATOM     29  P   TPI A   1     -22.111  59.133  13.179  1.00  0.00     0.339 P 
+ATOM     30  O3  TPI A   1     -22.248  60.086  11.917  1.00  0.00    -0.635 OA
+ATOM     31  O2  TPI A   1     -21.694  59.914  14.361  1.00  0.00    -0.635 OA
+ATOM     32  O1  TPI A   1     -23.492  58.398  13.452  1.00  0.00    -0.635 OA
+ENDBRANCH  26  29
+ENDBRANCH   2  26
+TORSDOF 8
+ENDMDL

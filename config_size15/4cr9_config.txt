@@ -1,0 +1,15 @@
+receptor = 4cr9_protein.pdbqt
+ligand = 4cr9_ligand.pdbqt
+target = 4cr9_ligand.pdbqt
+
+center_x = 51.196
+center_y = 20.502
+center_z = 11.857
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

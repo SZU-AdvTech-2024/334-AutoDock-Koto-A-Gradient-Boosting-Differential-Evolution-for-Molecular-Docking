@@ -1,0 +1,15 @@
+receptor = 4mme_protein.pdbqt
+ligand = 4mme_ligand.pdbqt
+target = 4mme_ligand.pdbqt
+
+center_x = 102.841
+center_y = 22.482
+center_z = 35.193
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

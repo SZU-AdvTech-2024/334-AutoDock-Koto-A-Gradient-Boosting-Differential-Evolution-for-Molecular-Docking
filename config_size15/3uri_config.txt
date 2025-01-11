@@ -1,0 +1,15 @@
+receptor = 3uri_protein.pdbqt
+ligand = 3uri_ligand.pdbqt
+target = 3uri_ligand.pdbqt
+
+center_x = 2.839
+center_y = 31.529
+center_z = 16.803
+
+size_x = 15
+size_y = 20
+size_z = 20
+
+energy_range = 3
+
+exhaustiveness = 8

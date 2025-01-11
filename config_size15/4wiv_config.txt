@@ -1,0 +1,15 @@
+receptor = 4wiv_protein.pdbqt
+ligand = 4wiv_ligand.pdbqt
+target = 4wiv_ligand.pdbqt
+
+center_x = 14.482
+center_y = -4.208
+center_z = -8.07
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8

@@ -1,0 +1,15 @@
+receptor = 3ag9_protein.pdbqt
+ligand = 3ag9_ligand.pdbqt
+target = 3ag9_ligand.pdbqt
+
+center_x = 14.137
+center_y = 10.573
+center_z = 8.737
+
+size_x = 15
+size_y = 21
+size_z = 21
+
+energy_range = 3
+
+exhaustiveness = 8

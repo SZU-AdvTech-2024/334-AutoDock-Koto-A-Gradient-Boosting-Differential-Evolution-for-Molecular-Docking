@@ -1,0 +1,15 @@
+receptor = 1r5y_protein.pdbqt
+ligand = 1r5y_ligand.pdbqt
+target = 1r5y_ligand.pdbqt
+
+center_x = 16.886
+center_y = 16.907
+center_z = 21.328
+
+size_x = 15
+size_y = 15
+size_z = 15
+
+energy_range = 3
+
+exhaustiveness = 8
